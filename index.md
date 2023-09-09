@@ -33,7 +33,8 @@ ISDS (Intelligent Security Detection Systems) are systems designed to identify a
 <center><img src="images/fgsm.png"/></center>
 <br>
 ---
-## Projects on Computer Vision and Signals 
+
+## Computer Vision and Signals 
 
 ### Image and Audio SuperResolution using CNN and GANs.
 
@@ -84,7 +85,7 @@ The Neural Information Processing System (NIPS) is a machine learning and comput
 ---
 ### 7 Sins Diachronical Analysis
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/Data_Semantics)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/grusso98/Data_Semantics/blob/main/Seven%20Deadly%20Sins_Chiriaco_Porcedda_Russo.pdf)
+[![Open PDF](https://img.shields.io/badge/PDF-Project%20Report%20Paper-red?logo=adobe-acrobat-reader)](https://github.com/grusso98/Data_Semantics/blob/main/Seven%20Deadly%20Sins_Chiriaco_Porcedda_Russo.pdf)
 
 <div style="text-align: justify">
 The aim of the work is to perform a diachronic analysis of the 7 deadly sins to find out how their meaning and use has changed from the 19th century to the 21st century. Additionally, we tried implementing some comparison metrics for the embedding models we used.
