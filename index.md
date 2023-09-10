@@ -174,7 +174,7 @@ We evaluated, through some <b>infographics</b> made through Python, using the <b
 [![Open PDF](https://img.shields.io/badge/PDF-Read%20%20Report%20%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/grusso98/Netflix-Top10-Quality/blob/main/882638_886719_887277_DM.pdf)
 
 <div style="text-align: justify">
-Data Acquisition and Modeling: <b>Document-based database</b> containing information related to <b>IMDB and Netflix</b>, <b>scraped</b> from various sources and obtained via API.
+Data Acquisition and Modeling: <b>Document-based database</b> containing information related to <b>IMDB and Netflix</b>, <b>scraped</b> from various sources and obtained via <b>API</b>.
 <br> <br>
 The following study focuses on the acquisition, aggregation, integration, cleaning, and storage of a series of datasets related to the Netflix streaming platform in MongoDB. In particular, various data acquisition techniques such as web scraping and APIs were employed. Once the necessary data to answer research questions were obtained, they underwent cleaning and enrichment. Dozens of attributes related to titles that made it into Netflix's weekly Top 10 were derived from data provided by IMDb. Through the comprehensive enrichment process, a more enriched dataset with a more "flexible" structure was obtained and stored in the document-based MongoDB database.
 </div>
