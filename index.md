@@ -63,7 +63,7 @@ The first objective of this project is to perform classification on pills, speci
 The second objective is to remedy for the lack of training data using generative adversarial neural networks (GANs), combined with traditional data augmentation.
 </div>
 <br>
-<center><img src="images/FDL-banner.png"/></center>
+<center><img src="images/pil.gif"/></center>
 <br>
 
 ---
