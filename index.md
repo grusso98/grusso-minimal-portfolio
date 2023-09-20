@@ -101,7 +101,7 @@ This work involved using different word embedding techniques: Word2Vec and GloVe
 
 ## Time Series Analysis
 
-### Restaurant's Revenue Loss during first COVID-19 pandemic lockdown
+### Restaurant's Revenue Loss during first COVID-19 pandemic lockdown (ITA).
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/Data_Science_Lab)
 [![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/grusso98/Data_Science_Lab/blob/main/Report_PorceddaChiriacoRusso.pdf)
@@ -117,7 +117,7 @@ One of the sectors most affected by the Covid-19 pandemic has certainly been the
 
 ---
 
-### Energy Consumption Forecast
+### Energy Consumption Forecast (ITA).
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/SDMTSA)
 [![Open PDF](https://img.shields.io/badge/PDF-View%20Report%20Pdf-red?logo=adobe-acrobat-reader)](https://github.com/grusso98/SDMTSA/blob/main/SDMTSA_887277.pdf)
@@ -136,7 +136,7 @@ Energy consumption forecasts are crucial for various purposes, from purchasing e
 
 ## Data Visualization
 
-### Netflix Top 10 Quality: Data Analysis & Interactive Visualization
+### Netflix Top 10 Quality: Data Analysis & Interactive Visualization (ITA).
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/Netflix-Top10-Quality)
 [![View on Tableau](https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau)](https://rporcedda.github.io/Netflix-Top10-Quality/)
@@ -155,7 +155,7 @@ The objective of this research is to analyze data related to each movie and TV s
 <br>
 
 ---
-### Infographics: PROM score and the possible relationship with weather conditions
+### Infographics: PROM score and the possible relationship with weather conditions (ITA).
 
 
 <div style="text-align: justify">
@@ -170,7 +170,7 @@ We evaluated, through some <b>infographics</b> made through Python, using the <b
 ---
 ## Data Management
 
-### Data Acquisition and Modeling: Movies and Tv series using Netflix and IMDB Data
+### Data Acquisition and Modeling: Movies and Tv series using Netflix and IMDB Data (ITA).
 
 [![Open PDF](https://img.shields.io/badge/PDF-Read%20%20Report%20%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/grusso98/Netflix-Top10-Quality/blob/main/882638_886719_887277_DM.pdf)
 
