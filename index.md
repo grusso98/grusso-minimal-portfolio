@@ -77,13 +77,24 @@ This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to qu
 
 #### Features
 
-- <b>Chat with your notes</b>: Ask questions, and the system retrieves relevant information using embeddings.
-
-- <b>Database management</b>: Upload, delete, and visualize document embeddings.
-
-- <b>Three LLM options</b>: Use either OpenAI's API or local models like **LLaMA3.2** and the new **Gemma3** via ollama chat.
-
-- <b>Three Embedding options</b>: Use either OpenAI's embedder, HF embedder from the hub or chroma builtin local embedder.
+<ul>
+  <li><b>Chat with your notes</b>: Ask questions, and the system retrieves relevant information using embeddings.</li>
+  <li><b>Database management</b>: Upload, delete, and visualize document embeddings.</li>
+  <li><b>Three LLM options</b>:
+    <ul>
+      <li>Use <b>OpenAI's API</b></li>
+      <li>Use local models like <b>LLaMA3.2</b></li>
+      <li>Use the new <b>Gemma3</b> via ollama chat</li>
+    </ul>
+  </li>
+  <li><b>Three Embedding options</b>:
+    <ul>
+      <li>Use <b>OpenAI's embedder</b></li>
+      <li>Use <b>HF embedder</b> from the hub</li>
+      <li>Use <b>chroma builtin local embedder</b></li>
+    </ul>
+  </li>
+</ul>
 <br> <br>
 </div>
 <br>
