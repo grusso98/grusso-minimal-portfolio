@@ -74,6 +74,12 @@ The second objective is to remedy for the lack of training data using generative
 
 <div style="text-align: justify">
 This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to query your university notes and books efficiently (could be used to retrieve any kind of document really, but this is the use case i've opted for! :) ). It allows users to upload PDF documents, store them in a <b>Chroma vector database</b>, and interact with them through an <b>LLM-powered chatbot</b>. The project also includes a visualization tool for document embeddings.
+
+## Features
+- **Chat with your notes**: Ask questions, and the system retrieves relevant information using embeddings.
+- **Database management**: Upload, delete, and visualize document embeddings.
+- **Three LLM options**: Use either OpenAI's API or local models like **LLaMA3.2** and the new **Gemma3** via ollama chat.
+- **Three Embedding options**: Use either OpenAI's embedder, HF embedder from the hub or chroma builtin local embedder.
 <br> <br>
 </div>
 <br>
