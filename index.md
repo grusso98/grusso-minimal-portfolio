@@ -28,8 +28,8 @@ This thesis explores anomaly detection of web-based attack on microservices base
 <br> <br>
 <h4>Brief description</h4>
 <p>Machine learning models, crucial in various applications like autonomous driving and security systems, are vulnerable to adversarial attacks. These attacks manipulate data to degrade model performance or breach confidentiality.</p>
-<p><strong>Fast Gradient Sign Method (FGSM)</strong> and <strong>Projected Gradient Descent (PGD)</strong> are two prominent adversarial techniques. FGSM performs one-step updates to maximize loss, while PGD is an iterative, robust version of FGSM.</p>
-<p>Defensive strategies include <strong>denoising</strong> to clean inputs and <strong>Singular Value Decomposition (SVD)</strong> to reduce dimensionality and remove perturbations. Practical demonstrations using the CleverHans library showcased these methods on datasets like MNIST.</p>
+<p><b>Fast Gradient Sign Method (FGSM)</b> and <b>Projected Gradient Descent (PGD)</b> are two prominent adversarial techniques. FGSM performs one-step updates to maximize loss, while PGD is an iterative, robust version of FGSM.</p>
+<p>Defensive strategies include <b>denoising</b> to clean inputs and <b>Singular Value Decomposition (SVD)</b> to reduce dimensionality and remove perturbations. Practical demonstrations using the CleverHans library showcased these methods on datasets like MNIST.</p>
 <p>While these defenses are effective, they require access to training data and can be computationally intensive, especially for large datasets.</p>
 
 </div>
