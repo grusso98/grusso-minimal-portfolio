@@ -26,8 +26,12 @@ This thesis explores anomaly detection of web-based attack on microservices base
 <div style="text-align: justify">
 <b>Adversarial Attack detection</b> using SVD as a proactive measure.
 <br> <br>
-Machine Learning algorithms are used to create mathematical models for data-driven systems. Such a model can make accurate predictions without being explicitly programmed to do so. These techniques have a wide range of applications, from the digital economy to artificial intelligence, including critical areas like autonomous driving or ISDS.
-ISDS (Intelligent Security Detection Systems) are systems designed to identify and mitigate malicious activity. Anomaly detection is a common example where machine learning models are employed to build a reliable behavior model. The model analyzes normal behavior to subsequently classify abnormal activities and thus detect malicious activity. These security systems are vulnerable to adversarial attacks.
+<h4>Brief description</h4>
+<p>Machine learning models, crucial in various applications like autonomous driving and security systems, are vulnerable to adversarial attacks. These attacks manipulate data to degrade model performance or breach confidentiality.</p>
+<p><strong>Fast Gradient Sign Method (FGSM)</strong> and <strong>Projected Gradient Descent (PGD)</strong> are two prominent adversarial techniques. FGSM performs one-step updates to maximize loss, while PGD is an iterative, robust version of FGSM.</p>
+<p>Defensive strategies include <strong>denoising</strong> to clean inputs and <strong>Singular Value Decomposition (SVD)</strong> to reduce dimensionality and remove perturbations. Practical demonstrations using the CleverHans library showcased these methods on datasets like MNIST.</p>
+<p>While these defenses are effective, they require access to training data and can be computationally intensive, especially for large datasets.</p>
+
 </div>
 <br>
 <center><img src="images/fgsm.png"/></center>
