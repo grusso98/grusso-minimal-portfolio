@@ -69,6 +69,19 @@ The second objective is to remedy for the lack of training data using generative
 
 ---
 ## Natural Language Processing
+### RAGademic: LLM+RAG for your notes.
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/RAGademic)
+
+<div style="text-align: justify">
+This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to query your university notes and books efficiently (could be used to retrieve any kind of document really, but this is the use case i've opted for! :) ). It allows users to upload PDF documents, store them in a <b>Chroma vector database</b>, and interact with them through an <b>LLM-powered chatbot</b>. The project also includes a visualization tool for document embeddings.
+<br> <br>
+</div>
+<br>
+<center><img src="images/rag1.png"/></center>
+<br>
+<br>
+<center><img src="images/rag2.png"/></center>
+<br>
 
 ### NIPS Papers: Topic Modelling and Text Summarization.
 
