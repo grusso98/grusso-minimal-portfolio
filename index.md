@@ -75,8 +75,7 @@ The second objective is to remedy for the lack of training data using generative
 <div style="text-align: justify">
 This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to query your university notes and books efficiently (could be used to retrieve any kind of document really, but this is the use case i've opted for! :) ). It allows users to upload PDF documents, store them in a <b>Chroma vector database</b>, and interact with them through an <b>LLM-powered chatbot</b>. The project also includes a visualization tool for document embeddings.
 
-#### Features
-
+<h4>Features</h4>
 <ul>
   <li><b>Chat with your notes</b>: Ask questions, and the system retrieves relevant information using embeddings.</li>
   <li><b>Database management</b>: Upload, delete, and visualize document embeddings.</li>
@@ -95,7 +94,7 @@ This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to qu
     </ul>
   </li>
 </ul>
-<br> <br>
+<br> 
 </div>
 <br>
 <center><img src="images/rag1.png"/></center>
