@@ -77,12 +77,13 @@ The second objective is to remedy for the lack of training data using generative
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/RAGademic)
 
 <div style="text-align: justify">
-This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to query your university notes and books efficiently (could be used to retrieve any kind of document really, but this is the use case i've opted for! :) ). It allows users to upload PDF documents, store them in a <b>Chroma vector database</b>, and interact with them through an <b>LLM-powered chatbot</b>. The project also includes a visualization tool for document embeddings.
+This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to query your university notes and books efficiently (could be used to retrieve any kind of document really, but this is the use case I've opted for! :) ). It allows users to upload PDF documents, store them in a <b>Chroma vector database</b>, and interact with them through an <b>LLM-powered chatbot</b>. The project also includes a visualization tool for document embeddings.
 
 <h4>Features</h4>
 <ul>
   <li><b>Chat with your notes</b>: Ask questions, and the system retrieves relevant information using embeddings.</li>
   <li><b>Database management</b>: Upload, delete, and visualize document embeddings.</li>
+  <li><b>Arxiv source addition</b>: Search for papers on specific topics and add them to your knowledge base.</li>
   <li><b>Three LLM options</b>:
     <ul>
       <li>Use <b>OpenAI's API</b></li>
@@ -97,15 +98,22 @@ This project provides a <b>Retrieval-Augmented Generation (RAG) system</b> to qu
       <li>Use <b>chroma builtin local embedder</b></li>
     </ul>
   </li>
+  <li><b>Persistent memory</b>: Keeps track of conversations in between sessions, using llama3.2 as a summarizer to keep context windows occupation optimized.</li>
+  <li><b>Web Search Agent</b>: If activated, it evaluates (using local llama3.2) the pertinence of the local knowledge wrt the query of the user and if necessary it scrapes the web for more context.</li>
 </ul>
-<br> 
+<br>
 </div>
+<center>
+  <img src="https://raw.githubusercontent.com/grusso98/RAGademic/main/imgs/chat.png" alt="Chat Interface" width="100%">
+</center>
 <br>
-<center><img src="images/rag1.png"/></center>
+<center>
+  <img src="https://raw.githubusercontent.com/grusso98/RAGademic/main/imgs/db_management.png" alt="DB Management Interface" width="100%">
+</center>
 <br>
-<br>
-<center><img src="images/rag2.png"/></center>
-<br>
+<center>
+  <img src="https://raw.githubusercontent.com/grusso98/RAGademic/main/imgs/embedding_viz.png" alt="Embeddings Visualization" width="100%">
+</center>
 
 ### NIPS Papers: Topic Modelling and Text Summarization.
 
