@@ -79,6 +79,7 @@ The second objective is to remedy for the lack of training data using generative
 </center>
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/AppointMate)
+
 A conversational AI agent built with LangChain that allows users to book appointments with a professional via Telegram. The agent can check availability based on a schedule stored in an SQLite database and confirm bookings, optionally sending email notifications.
 
 #### Functionalities
