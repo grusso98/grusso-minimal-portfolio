@@ -74,7 +74,10 @@ The second objective is to remedy for the lack of training data using generative
 ---
 ## Natural Language Processing
 ### AppointMate: Appointment Agent App.
-![AppointMate Logo](https://github.com/grusso98/AppointMate/blob/main/imgs/appointmate_logo.png)
+<center>
+  <img src="https://raw.githubusercontent.com/grusso98/AppointMate/main/imgs/appointmate_logo.png" alt="Chat Interface" width="100%">
+</center>
+
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/AppointMate)
 A conversational AI agent built with LangChain that allows users to book appointments with a professional via Telegram. The agent can check availability based on a schedule stored in an SQLite database and confirm bookings, optionally sending email notifications.
 
@@ -101,7 +104,10 @@ A conversational AI agent built with LangChain that allows users to book appoint
     * Requires SMTP configuration in the `.env` file to function.
 
 ### RAGademic: LLM+RAG for your notes.
-![RAGademic Logo](https://github.com/grusso98/RAGademic/blob/main/imgs/ragademic_logo.png)
+<center>
+  <img src="https://raw.githubusercontent.com/grusso98/RAGademic/main/imgs/ragademic_logo.png" alt="Chat Interface" width="100%">
+</center>
+
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/RAGademic)
 
 <div style="text-align: justify">
