@@ -73,7 +73,35 @@ The second objective is to remedy for the lack of training data using generative
 
 ---
 ## Natural Language Processing
+### AppointMate: Appointment Agent App.
+![AppointMate Logo](https://github.com/grusso98/AppointMate/blob/main/imgs/appointmate_logo.png)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/AppointMate)
+A conversational AI agent built with LangChain that allows users to book appointments with a professional via Telegram. The agent can check availability based on a schedule stored in an SQLite database and confirm bookings, optionally sending email notifications.
+
+#### Functionalities
+
+* **Conversational Interface:** Interacts with users naturally through Telegram.
+* **Availability Checking:**
+    * Understands natural language date queries (e.g., "today", "tomorrow", "next Friday", "July 10th") using `dateparser`.
+    * Consults an SQLite database for existing appointments.
+    * Checks against predefined working hours.
+    * Presents available time slots to the user.
+* **Appointment Booking:**
+    * Guides the user to select a specific available slot.
+    * Prompts the user for their name if not already provided in the conversation.
+    * Saves the confirmed appointment to the SQLite database, preventing double booking.
+* **Edit Appointments:**
+    * Allows the user to edit exisiting appointment, checking for available slots.
+* **LLM Integration:** Supports using different Language Models:
+    * OpenAI models (e.g., GPT-4o-mini) via API.
+    * Local models via Ollama (e.g., Llama 3).
+* **(Optional) Email Notifications:**
+    * Sends a confirmation email to the professional upon successful booking.
+    * Attaches an `.ics` calendar invite file for easy addition to calendars (like Google Calendar, Outlook).
+    * Requires SMTP configuration in the `.env` file to function.
+
 ### RAGademic: LLM+RAG for your notes.
+![RAGademic Logo](https://github.com/grusso98/RAGademic/blob/main/imgs/ragademic_logo.png)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/grusso98/RAGademic)
 
 <div style="text-align: justify">
